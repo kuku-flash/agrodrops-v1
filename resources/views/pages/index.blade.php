@@ -83,26 +83,40 @@
 <!-- End Product Section -->
 
 <!-- Start Why Choose 1tion -->
-<div class="accessories-section">
-    <div class="container">
+<div class="product-section">
+<div class="container">
     <div class="prdct" style="padding-bottom:30px; padding-top:0; padding-left:0; color: black;">
         <h6>ACCESSORIES</h6>
     </div>
-        <div class="row justify-content-between">
-            <div class="col-md-4">
-                <img src="images/ACCESSORIES PAGE/Mask group (2).png" class="img-fluid" style="height: 400px; max-width:100%;">
-                <h6 style="text-align: left;">CUSTOM BOTTLES</h6>
-            </div>
+        <div class="row">
 
-            <div class="col-md-4">
-                <img src="images/ACCESSORIES PAGE/Group 47.png" class="img-fluid" style="height: 400px; width:100%;">
-                <h6 style="text-align: center;">CUSTOM LABELS</h6>
-            </div>
+            <!-- Start Column 1 -->
+            <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
+                <a class="product-item" href="cart.html">
+                    <img src="images/HOME PAGE/Mask group (1).png" class="img-fluid product-thumbnail">
+                    <strong class="product-price">CUSTOMED BOTTLES</strong>
+                </a>
+            </div> 
+            <!-- End Column 1 -->
 
-            <div class="col-md-4">
-                <img src="images/ACCESSORIES PAGE/1 1.png" class="img-fluid" style="height: 400px; max-width:100%;">
-                <h6 style="text-align: center;">BRANDED WEAR</h6>
+            <!-- Start Column 2 -->
+            <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
+                <a class="product-item" href="cart.html">
+                    <img src="images/HOME PAGE/Mask group (2).png" class="img-fluid product-thumbnail">
+                    <strong class="product-price">CUSTOMED LABELS</strong>
+                </a>
+            </div> 
+            <!-- End Column 2 -->
+
+            <!-- Start Column 3 -->
+            <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
+                <a class="product-item" href="cart.html">
+                    <img src="images/ACCESSORIES PAGE/1 2.png" class="img-fluid product-thumbnail">
+                    <strong class="product-price">BRANDED WEAR</strong>
+                </a>
             </div>
+            <!-- End Column 3 -->   
+
         </div>
     </div>
 </div>
@@ -175,25 +189,29 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-md-6">
-                    <img src="images/HOME PAGE/Mask Group (4).png" class="img-fluid" alt="Testimonial Photo">
-                    </div>
-                    <div class="col-md-6">
-                        <!-- Photo goes here -->
-                        <img src="images/HOME PAGE/Mask Group (5).png" class="img-fluid" alt="Testimonial Photo">
-                    </div>
+                <div class="col-md-6 position-relative">
+        <img src="images/HOME PAGE/Mask Group (001).png" class="img-fluid" alt="Testimonial Photo">
+        <div class="position-absolute top-0 start-0 text-white p-3">
+            <h6>EVENTS</h6>
+        </div>
+    </div>
+
+    <div class="col-md-6 position-relative">
+        <img src="images/HOME PAGE/Mask Group (005).png" class="img-fluid" alt="Testimonial Photo">
+        <div class="position-absolute top-0 start-0 text-white p-3">
+            <h6>SEMINARS</h6>
+        </div>
+    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="hero" style="background-image: url('images/HOME PAGE/Group 46.png');">
-    <div class="container">
-    </div>
+<div class="prdt" style="padding-top: 20px; padding-left: 100px; padding-bottom: 20px; color: black;">
+    <h6>OUR CLIENTS</h6>
 </div>
-
-
+<div class="hero" style="background-image: url('images/HOME PAGE/Group003.jpg'); background-size: cover; background-position: center; height: 300px; padding-bottom: 30px;">
+</div>
 <script src="{{ asset('js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{ asset('js/tiny-slider.js')}}"></script>
 <script src="{{ asset('js/custom.js')}}"></script>
