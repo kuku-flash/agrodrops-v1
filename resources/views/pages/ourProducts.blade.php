@@ -157,9 +157,9 @@
             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                 <a class="product-item" href="cart.html">
                     <img src="images/OUR PRODUCTS/Group 47.png" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">20 Litres</h3>
-                    <h3 class="product-title">Inbuilt Handle</h3>
-                    <h3 class="product-title">Refill</h3>
+                    <h3 class="product-title">500ml</h3>
+                    <h3 class="product-title">Carton</h3>
+                    <h3 class="product-title">24 Pcs</h3>
                     <strong class="product-price">KES 500</strong>
                 </a>
             </div>

@@ -14,9 +14,9 @@ use App\Http\Controllers\PagesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');});
 Route :: get ('/',  [PagesController::class, 'index'])->name('index');
 Route :: get ('ourProducts',  [PagesController::class, 'ourProducts'])->name('ourProducts');
+Route :: get ('accessories',  [PagesController::class, 'accessories'])->name('accessories');
+
 
