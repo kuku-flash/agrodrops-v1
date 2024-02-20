@@ -11,7 +11,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="{{ asset('images/LOGO1.png') }}">
 
   <meta name="description" content="" />
   <meta name="keywords" content="bootstrap, bootstrap4" />
@@ -21,7 +21,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="{{ asset('css/tiny-slider.css')}}" rel="stylesheet">
 		<link href="{{ asset('css/style.css')}}" rel="stylesheet">
-		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+		<title>Ago Drops</title>
 	</head>
 
 	<body>
@@ -40,10 +40,12 @@
 
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li><a class="nav-link" href="#">Our Products</a></li>
+					    <li class="nav-item {{ request()->routeIs('index') ? 'active' : '' }}">
+                          <a class="nav-link" href="{{ route('index')}}">Home</a>
+                        </li>
+						<li class="nav-item {{ request()->routeIs('ourProducts') ? 'active' : '' }}">
+                          <a class="nav-link" href="{{ route('ourProducts')}}">Our Products</a>
+                        </li>
 						<li><a class="nav-link" href="#">Accessories</a></li>
 						<li><a class="nav-link" href="#">About Us</a></li>
 						<li><a class="nav-link" href="#">Featured</a></li>
@@ -52,13 +54,6 @@
 						<li><a class="nav-link" href="#">Contact Us</a></li>
 						<li><a class="nav-link" href="#">FAQs</a></li>
 
-					<!-- 
-						<li><a class="nav-link" href="shop.html">Shop</a></li>
-						<li><a class="nav-link" href="about.html">About us</a></li>
-						<li><a class="nav-link" href="services.html">Services</a></li>
-						<li><a class="nav-link" href="blog.html">Blog</a></li>
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
-						-->	
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-3">
