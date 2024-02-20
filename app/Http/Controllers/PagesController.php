@@ -17,4 +17,8 @@ class PagesController extends Controller
     public function accessories(){
         return view('pages.accessories');
     }
+
+    public function aboutus(){
+        return view('pages.aboutus');
+    }
 }
