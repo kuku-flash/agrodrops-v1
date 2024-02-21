@@ -7,9 +7,24 @@
 		if (el.length > 0) {
 			var slider = tns({
 				container: '.testimonial-slider',
-				items: 1,
+				items: 4,
 				axis: "horizontal",
 				controlsContainer: "#testimonial-nav",
+				swipeAngle: false,
+				speed: 700,
+				nav: true,
+				controls: true,
+				autoplay: true,
+				autoplayHoverPause: true,
+				autoplayTimeout: 3500,
+				autoplayButtonOutput: false
+			});
+
+			var slider = tns2({
+				container: '.testimonial-slider2',
+				items: 3,
+				axis: "horizontal",
+				controlsContainer: "#testimonial-nav2",
 				swipeAngle: false,
 				speed: 700,
 				nav: true,

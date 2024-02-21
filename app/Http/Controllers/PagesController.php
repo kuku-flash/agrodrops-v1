@@ -17,11 +17,9 @@ class PagesController extends Controller
     public function accessories(){
         return view('pages.accessories');
     }
-
     public function aboutus(){
         return view('pages.aboutus');
     }
-
     public function featured(){
         return view('pages.featured');
     }
@@ -29,4 +27,5 @@ class PagesController extends Controller
     public function ourClients(){
         return view('pages.ourClients');
     }
+
 }

@@ -24,5 +24,6 @@ Route :: get ('ourClients',  [PagesController::class, 'ourClients'])->name('ourC
 
 
 
+>>>>>>> cd8a6579588e26c3bcd0fd5774c94dccf198e6a1
 
 
