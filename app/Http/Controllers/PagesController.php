@@ -17,10 +17,17 @@ class PagesController extends Controller
     public function accessories(){
         return view('pages.accessories');
     }
+<<<<<<< HEAD
     public function aboutus(){
         return view('pages.aboutus');
     }
     public function featured(){
         return view('pages.featured');
     }
+=======
+
+    public function aboutus(){
+        return view('pages.aboutus');
+    }
+>>>>>>> cd8a6579588e26c3bcd0fd5774c94dccf198e6a1
 }
