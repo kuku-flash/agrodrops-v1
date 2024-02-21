@@ -21,4 +21,12 @@ class PagesController extends Controller
     public function aboutus(){
         return view('pages.aboutus');
     }
+
+    public function featured(){
+        return view('pages.featured');
+    }
+
+    public function ourClients(){
+        return view('pages.ourClients');
+    }
 }
