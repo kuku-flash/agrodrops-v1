@@ -48,8 +48,13 @@
                         </li>
 						<li class="nav-item {{ request()->routeIs('accessories') ? 'active' : '' }}">
                           <a class="nav-link" href="{{ route('accessories')}}">Accessories</a>
-                        </li>						<li><a class="nav-link" href="#">About Us</a></li>
-						<li><a class="nav-link" href="#">Featured</a></li>
+                        </li>						
+						<li class="nav-item {{ request()->routeIs('aboutus') ? 'active' : '' }}">
+							<a class="nav-link" href="{{ route('aboutus')}}">About Us</a>
+						</li>
+						<li class="nav-item {{ request()->routeIs('featured') ? 'active' : '' }}">
+							<a class="nav-link" href="{{ route('featured')}}">Featured</a>
+						</li>
 						<li><a class="nav-link" href="#">Our Team</a></li>
 						<li><a class="nav-link" href="#">Our Clients</a></li>
 						<li><a class="nav-link" href="#">Contact Us</a></li>
