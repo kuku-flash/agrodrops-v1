@@ -19,7 +19,11 @@ Route :: get ('/',  [PagesController::class, 'index'])->name('index');
 Route :: get ('ourProducts',  [PagesController::class, 'ourProducts'])->name('ourProducts');
 Route :: get ('accessories',  [PagesController::class, 'accessories'])->name('accessories');
 Route :: get ('aboutus',  [PagesController::class, 'aboutus'])->name('aboutus');
+Route :: get ('featured',  [PagesController::class, 'featured'])->name('featured');
+Route :: get ('ourClients',  [PagesController::class, 'ourClients'])->name('ourClients');
+Route :: get ('ourServices',  [PagesController::class, 'ourServices'])->name('ourServices');
+Route :: get ('contactus',  [PagesController::class, 'contactus'])->name('contactus');
+Route :: get ('FAQ',  [PagesController::class, 'FAQ'])->name('FAQ');
 
->>>>>>> cd8a6579588e26c3bcd0fd5774c94dccf198e6a1
 
 

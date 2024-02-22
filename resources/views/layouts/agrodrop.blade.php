@@ -35,8 +35,8 @@
 				</a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #2693C0;">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
@@ -49,16 +49,31 @@
 						<li class="nav-item {{ request()->routeIs('accessories') ? 'active' : '' }}">
                           <a class="nav-link" href="{{ route('accessories')}}">Accessories</a>
                         </li>						
-						<li class="nav-item {{ request()->routeIs('aboutus') ? 'active' : '' }}">
-							<a class="nav-link" href="{{ route('aboutus')}}">About Us</a>
-						</li>
-						<li class="nav-item {{ request()->routeIs('featured') ? 'active' : '' }}">
-							<a class="nav-link" href="{{ route('featured')}}">Featured</a>
-						</li>
-						<li><a class="nav-link" href="#">Our Team</a></li>
-						<li><a class="nav-link" href="#">Our Clients</a></li>
-						<li><a class="nav-link" href="#">Contact Us</a></li>
-						<li><a class="nav-link" href="#">FAQs</a></li>
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							 About Us
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+						   <li><a class="dropdown-item" href="{{ route('aboutus')}}">About Us</a></li>
+						   <li><a class="dropdown-item" href="{{ route('aboutus')}}#team-section">Our Team</a></li>
+						   </ul>
+						   </li>
+						   <li class="nav-item {{ request()->routeIs('featured') ? 'active' : '' }}">
+							 <a class="nav-link" href="{{ route('featured')}}">Featured</a>
+						   </li>
+						   <li class="nav-item {{ request()->routeIs('ourClients') ? 'active' : '' }}">
+							 <a class="nav-link" href="{{ route('ourClients')}}">Our Clients</a>
+						   </li>
+						   <li class="nav-item {{ request()->routeIs('ourServices') ? 'active' : '' }}">
+							<a class="nav-link" href="{{ route('ourServices')}}">Our Services</a>
+						  </li>
+						  <li class="nav-item {{ request()->routeIs('contactus') ? 'active' : '' }}">
+							<a class="nav-link" href="{{ route('contactus')}}">Contact Us</a>
+						  </li>
+						  <li class="nav-item {{ request()->routeIs('FAQ') ? 'active' : '' }}">
+							<a class="nav-link" href="{{ route('FAQ')}}">FAQ</a>
+						  </li>
 
 					</ul>
 

@@ -20,7 +20,22 @@ class PagesController extends Controller
     public function aboutus(){
         return view('pages.aboutus');
     }
+   
     public function featured(){
         return view('pages.featured');
+    }
+    
+    public function ourClients(){
+        return view('pages.ourClients');
+    }
+
+    public function ourServices(){
+        return view('pages.ourServices'); 
+    }
+    public function contactus(){
+        return view('pages.contactus');
+    }
+    public function FAQ(){
+        return view('pages.FAQ'); 
     }
 }
