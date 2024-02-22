@@ -19,7 +19,37 @@
 </div>
 
 <!-- End Hero Section -->
+<style>
+    .product-item {
+        padding: 10px; /* Adjust the padding as needed */
 
+    }
+
+    .product-thumbnail {
+        width: 100%; /* Make the images responsive */
+        height: auto; /* Ensure images maintain aspect ratio */
+        max-height: 240px; /* Limit the maximum height of the images */
+    }
+
+    .product-title {
+        margin: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 16px; /* Adjust font size as needed */
+    }
+
+    .product-description {
+        margin: 0;
+        color: black;
+        font-weight: normal;
+        font-size: 14px; /* Adjust font size as needed */
+    }
+
+    .product-price {
+        font-weight: bold;
+        font-size: 16px; /* Adjust font size as needed */
+    }
+</style>
 <!-- Start Product Section -->
 <div class="product-section">
     <div class="container">
@@ -30,51 +60,73 @@
 
             <!-- Start Column 1 -->
             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
+                <a class="product-item" href="cart.html" style="display: flex; flex-direction: column;">
                     <img src="images/HOME PAGE/20-LITRES-1 1.png" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">20 Litres</h3>
-                    <h3 class="product-title">No Handle</h3>
-                    <h3 class="product-title">Bottle + Water</h3>
-                    <strong class="product-price">KES 1,300</strong>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: bold;">20 Litres</h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">No Handle
+                            </h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">New Bottle +
+                                Water</h3>
+                        </div>
+                        <strong class="product-price">KES 1300</strong>
+                    </div>
                 </a>
-            </div> 
+            </div>
             <!-- End Column 1 -->
 
             <!-- Start Column 2 -->
             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
+                <a class="product-item" href="cart.html" style="display: flex; flex-direction: column;">
                     <img src="images/HOME PAGE/20-LITRES-1 1.png" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">20 Litres</h3>
-                    <h3 class="product-title">No Handle</h3>
-                    <h3 class="product-title">Refill</h3>
-
-                    <strong class="product-price">KES 350</strong>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                        <h3 class="product-title" style="margin: 0; color:black; font-weight: bold;">20 Litres</h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">No Handle
+                            </h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">Refill
+                                </h3>
+                        </div>
+                        <strong class="product-price">KES 350</strong>
+                    </div>
                 </a>
             </div> 
             <!-- End Column 2 -->
 
             <!-- Start Column 3 -->
             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
+                <a class="product-item" href="cart.html" style="display: flex; flex-direction: column;">
                     <img src="images/HOME PAGE/Group 49.png" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">20 Litres</h3>
-                    <h3 class="product-title">Inbuilt Handle</h3>
-                    <h3 class="product-title">Bottle + Water</h3>
-                    <strong class="product-price">KES 1,500</strong>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                        <h3 class="product-title" style="margin: 0; color:black; font-weight: bold;">20 Litres</h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">Inbuilt Handle
+                            </h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">New Bottle + Water
+                                </h3>
+                        </div>
+                        <strong class="product-price">KES 1,500</strong>
+                    </div>
                 </a>
-            </div>
-            <!-- End Column 3 -->   
+            </div>  
 
             <!-- Start Column 4 -->
             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
+                <a class="product-item" href="cart.html" style="display: flex; flex-direction: column;">
                     <img src="images/HOME PAGE/Group 49.png" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">20 Litres</h3>
-                    <h3 class="product-title">Inbuilt Handle</h3>
-                    <h3 class="product-title">Refill</h3>
-                    <strong class="product-price">KES 350</strong>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                        <h3 class="product-title" style="margin: 0; color:black; font-weight: bold;">20 Litres</h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">Inbuilt Handle
+                            </h3>
+                            <h3 class="product-title" style="margin: 0; color:black; font-weight: normal; font-size: 90%;">Refill
+                                </h3>
+                        </div>
+                        <strong class="product-price">KES 350</strong>
+                    </div>
                 </a>
-            </div>
+</div>
             <!-- End Column 4 -->
 
         </div>
@@ -88,67 +140,59 @@
     <div class="prdct" style="padding-bottom:30px; padding-top:0; padding-left:0; color: black;">
         <h6>ACCESSORIES</h6>
     </div>
-        <div class="row">
+    <style>
+    .product-thumbnil {
+        width: 100%;
+        max-height: 270px; /* Adjust the maximum height as needed */
+        object-fit: cover;
+    }
+</style>
 
-            <!-- Start Column 1 -->
-            <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
-                    <img src="images/HOME PAGE/Mask group (1).png" class="img-fluid product-thumbnail">
-                    <strong class="product-price">CUSTOMED BOTTLES</strong>
-                </a>
-            </div> 
-            <!-- End Column 1 -->
+<div class="row">
+    <!-- Start Column 1 -->
+    <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0 d-flex align-items-stretch">
+        <a class="product-item w-100" href="cart.html">
+            <img src="images/HOME PAGE/Mask group (1).png" class="img-fluid product-thumbnil" alt="Product Image">
+            <h6 class="text-center mt-3">CUSTOMED BOTTLES</h6>
+        </a>
+    </div> 
+    <!-- End Column 1 -->
 
-            <!-- Start Column 2 -->
-            <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
-                    <img src="images/HOME PAGE/Mask group (2).png" class="img-fluid product-thumbnail">
-                    <strong class="product-price">CUSTOMED LABELS</strong>
-                </a>
-            </div> 
-            <!-- End Column 2 -->
+    <!-- Start Column 2 -->
+    <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0 d-flex align-items-stretch">
+        <a class="product-item w-100" href="cart.html">
+            <img src="images/HOME PAGE/Mask group (8).png" class="img-fluid product-thumbnail" alt="Product Image">
+            <h6 class="text-center mt-3">CUSTOMED LABELS</h6>
+        </a>
+    </div> 
+    <!-- End Column 2 -->
 
-            <!-- Start Column 3 -->
-            <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
-                <a class="product-item" href="cart.html">
-                    <img src="images/ACCESSORIES PAGE/1 2.png" class="img-fluid product-thumbnail">
-                    <strong class="product-price">BRANDED WEAR</strong>
-                </a>
-            </div>
-            <!-- End Column 3 -->   
+    <!-- Start Column 3 -->
+    <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0 d-flex align-items-stretch">
+        <a class="product-item w-100" href="cart.html">
+            <img src="images/ACCESSORIES PAGE/1 2.png" class="img-fluid product-thumbnail" alt="Product Image">
+            <h6 class="text-center mt-3">ACCESSORIES</h6>
+        </a>
+    </div>
+    <!-- End Column 3 -->   
+</div>
 
-        </div>
     </div>
 </div>
 
 <!-- End Why Choose Us Section -->
 
-<div class="hero" style="background-image: url('images/HOME PAGE/Rectangle 15.png');">
+<div class="hero" style="background-image: url('images/FEATURED/Group 81.png');">
     <div class="container" style =" font-color:white;">
         <div class="row justify-content-between">
-            <div class="col-md-2">
+            <div class="col-lg-5">
                 <div class="intro-excerpt">
                     <h1>BACK TO WORK</h1>
-                    <h2 class="d-block">ESSENTIALS</h2>
-                    <p class="mb-4">Score everything you'll need for day one and beyond.</p>
-                    <p><a href="#" class="btn btn-white-outline">View</a></p>
+                    <h1 class="d-block"> ESSENTIALS</h1>
+                    <p class="mb-4">Score everything you’ll need for day one and beyond.</p>
+                    <p><a href="#" class="btn btn-white-outline">VIEW</a></p>
                 </div>
             </div>
-            <div class="col-md-2" style="padding: 0; margin: 0;">
-             <a href="#">
-              <img src="images/ACCESSORIES PAGE/Mask group (2).png" class="img-fluid" alt="Back to Work Essentials 1">
-             </a>
-            </div>
-           <div class="col-md-2" style="padding: 0; margin: 0;">
-             <a href="#">
-              <img src="images/ACCESSORIES PAGE/Mask group (3).png" class="img-fluid" alt="Back to Work Essentials 2">
-             </a>
-            </div>
-           <div class="col-md-2" style="padding: 0; margin: 0;">
-             <a href="#">
-              <img src="images/ACCESSORIES PAGE/1 1.png"class="img-fluid" alt="Back to Work Essentials 3">
-             </a>
-           </div>
         </div>
     </div>
 </div>
