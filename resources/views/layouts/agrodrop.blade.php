@@ -50,17 +50,11 @@
                           <a class="nav-link" href="{{ route('accessories')}}">Accessories</a>
                         </li>						
 						<li class="nav-item {{ request()->routeIs('aboutus') ? 'active' : '' }}">
-<<<<<<< HEAD
 							<a class="nav-link" href="{{ route('aboutus')}}">About Us</a>
 						</li>
 						<li class="nav-item {{ request()->routeIs('featured') ? 'active' : '' }}">
 							<a class="nav-link" href="{{ route('featured')}}">Featured</a>
 						</li>
-=======
-                          <a class="nav-link" href="{{ route('aboutus')}}">About Us</a>
-                        </li>
-						<li><a class="nav-link" href="#">Featured</a></li>
->>>>>>> cd8a6579588e26c3bcd0fd5774c94dccf198e6a1
 						<li><a class="nav-link" href="#">Our Team</a></li>
 						<li><a class="nav-link" href="#">Our Clients</a></li>
 						<li><a class="nav-link" href="#">Contact Us</a></li>
