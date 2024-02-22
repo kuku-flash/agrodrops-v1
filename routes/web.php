@@ -20,5 +20,6 @@ Route :: get ('ourProducts',  [PagesController::class, 'ourProducts'])->name('ou
 Route :: get ('accessories',  [PagesController::class, 'accessories'])->name('accessories');
 Route :: get ('aboutus',  [PagesController::class, 'aboutus'])->name('aboutus');
 
+>>>>>>> cd8a6579588e26c3bcd0fd5774c94dccf198e6a1
 
 

@@ -61,9 +61,7 @@
     </div>
 
     </div>
-
-
-    <div id="team-section" class="col-md-6">
+                <div class="col-md-6">
         <!-- Text content goes here -->
         <div class="prdct" style="padding-bottom:0px; padding-top:0; padding-left:0; color: black;">
             <h6 style="color:#2693C0; font-size: 17px; padding-bottom:0px; margin-bottom: 0;">OUR TEAM</h6>
